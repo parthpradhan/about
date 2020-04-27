@@ -70,7 +70,8 @@ Using NPM:
 $ npm install
 
 # Start development server
-$ gatsby develop
+$ gatsby develop 
+$ npm start for windows users, then go to http://localhost:8000/
 ```
 Using Yarn:
 ```bash
