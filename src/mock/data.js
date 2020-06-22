@@ -1,4 +1,4 @@
-import uuidv1 from 'uuid/v1';
+import { v4 as uuidv4 } from 'uuid';
 
 // HEAD DATA
 export const headData = {
@@ -27,7 +27,7 @@ export const aboutData = {
 // PROJECTS DATA
 export const projectsData = [
   {
-    id: uuidv1(),
+    id: uuidv4(),
     img: 'project.jpg',
     title: '',
     info: '',
@@ -36,7 +36,7 @@ export const projectsData = [
     repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
   },
   {
-    id: uuidv1(),
+    id: uuidv4(),
     img: 'project.jpg',
     title: '',
     info: '',
@@ -45,7 +45,7 @@ export const projectsData = [
     repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
   },
   {
-    id: uuidv1(),
+    id: uuidv4(),
     img: 'project.jpg',
     title: '',
     info: '',
@@ -66,22 +66,22 @@ export const contactData = {
 export const footerData = {
   networks: [
     {
-      id: uuidv1(),
+      id: uuidv4(),
       name: 'twitter',
       url: '',
     },
     {
-      id: uuidv1(),
+      id: uuidv4(),
       name: 'codepen',
       url: '',
     },
     {
-      id: uuidv1(),
+      id: uuidv4(),
       name: 'linkedin',
       url: '',
     },
     {
-      id: uuidv1(),
+      id: uuidv4(),
       name: 'github',
       url: '',
     },
