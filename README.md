@@ -65,21 +65,23 @@ $ git remote remove origin
 Then you can install the dependencies either using NPM or Yarn:
 
 Using NPM:
+
 ```bash
 # Install dependencies
 $ npm install
 
 # Start development server
-$ gatsby develop 
-$ npm start for windows users, then go to http://localhost:8000/
+$ npm run develop
 ```
+
 Using Yarn:
+
 ```bash
 # Install dependencies
 $ yarn
 
 # Start development server
-$ gatsby develop
+$ yarn develop
 ```
 
 **NOTE**:
