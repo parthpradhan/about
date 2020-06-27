@@ -1,4 +1,4 @@
-import { v4 as uuidv4 } from 'uuid';
+import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
@@ -27,7 +27,7 @@ export const aboutData = {
 // PROJECTS DATA
 export const projectsData = [
   {
-    id: uuidv4(),
+    id: nanoid(),
     img: 'project.jpg',
     title: '',
     info: '',
@@ -36,7 +36,7 @@ export const projectsData = [
     repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
   },
   {
-    id: uuidv4(),
+    id: nanoid(),
     img: 'project.jpg',
     title: '',
     info: '',
@@ -45,7 +45,7 @@ export const projectsData = [
     repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
   },
   {
-    id: uuidv4(),
+    id: nanoid(),
     img: 'project.jpg',
     title: '',
     info: '',
@@ -66,22 +66,22 @@ export const contactData = {
 export const footerData = {
   networks: [
     {
-      id: uuidv4(),
+      id: nanoid(),
       name: 'twitter',
       url: '',
     },
     {
-      id: uuidv4(),
+      id: nanoid(),
       name: 'codepen',
       url: '',
     },
     {
-      id: uuidv4(),
+      id: nanoid(),
       name: 'linkedin',
       url: '',
     },
     {
-      id: uuidv4(),
+      id: nanoid(),
       name: 'github',
       url: '',
     },
