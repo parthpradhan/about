@@ -140,7 +140,7 @@ Put as many projects object you want inside the `array`.
 ```javascript
 export const projectsData = [
   {
-    id: uuidv1(),
+    id: nanoid(),
     img: 'project.jpg',
     title: '',
     info: '',
@@ -149,7 +149,7 @@ export const projectsData = [
     repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
   },
   {
-    id: uuidv1(),
+    id: nanoid(),
     img: 'project.jpg',
     title: '',
     info: '',
@@ -180,22 +180,22 @@ Just put an object with the corresponding values inside the networks `array` or 
 export const footerData = {
   networks: [
     {
-      id: uuidv1(),
+      id: nanoid(),
       name: 'twitter',
       url: '', // your twitter url
     },
     {
-      id: uuidv1(),
+      id: nanoid(),
       name: 'codepen',
       url: '', // your codepen url
     },
     {
-      id: uuidv1(),
+      id: nanoid(),
       name: 'linkedin',
       url: '', // your linkedin url
     },
     {
-      id: uuidv1(),
+      id: nanoid(),
       name: 'github',
       url: '', // your github url
     },
