@@ -2,14 +2,9 @@ import React, { useContext } from 'react';
 import { Container } from 'react-bootstrap';
 import { Link } from 'react-scroll';
 import PortfolioContext from '../../context/context';
-import GithubButtons from '../GithubButtons/GithubButtons';
-
-import { githubButtons } from '../../mock/data';
 
 const Footer = () => {
   const { footer } = useContext(PortfolioContext);
-  const { networks } = footer;
-  const { isEnabled } = githubButtons;
 
   return (
     <footer className="footer navbar-static-bottom">
@@ -20,31 +15,42 @@ const Footer = () => {
           </Link>
         </span>
         <div className="social-links">
-          {networks &&
-            networks.map((network) => {
-              const { id, name, url } = network;
-              return (
-                <a
-                  key={id}
-                  href={url || 'https://github.com/cobidev/gatsby-simplefolio'}
-                  rel="noopener noreferrer"
-                  target="_blank"
-                  aria-label={name}
-                >
-                  <i className={`fa fa-${name || 'refresh'} fa-inverse`} />
-                </a>
-              );
-            })}
+          <a
+            href="https://www.instagram.com/thesoulfrost/"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <i className="fa fa-instagram" />
+          </a>
+          <a
+            href="https://www.youtube.com/channel/UCFAOx2wRuWGHYNYpOTKc3_A"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <i className="fa fa-youtube-play" />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/parth-shankar-pradhan-584b761aa/"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <i className="fa fa-linkedin-square" />
+          </a>
+          <a href="https://www.behance.net/parthpradhan1" rel="noopener noreferrer" target="_blank">
+            <i className="fa fa-behance" />
+          </a>
         </div>
         <hr />
         <p className="footer__text">
-          © {new Date().getFullYear()} - Template developed by{' '}
-          <a href="https://github.com/cobidev" target="_blank" rel="noopener noreferrer">
-            Jacobo Martínez
+          © {new Date().getFullYear()} - Website by{' '}
+          <a
+            href="https://github.com/parthpradhan?tab=repositories"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Parth Pradhan
           </a>
         </p>
-
-        {isEnabled && <GithubButtons />}
       </Container>
     </footer>
   );
