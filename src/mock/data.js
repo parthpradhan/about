@@ -60,7 +60,7 @@ export const projectsData = [
     title: 'My Latest Project',
     info: 'Recipie is a react based web application bundled with bootstrap made for searching recipes.',
     info2: 'Using Edamame API calls it fetches recipes.',
-    url: 'https://parthpradhan.github.io/Recipie/',
+    url: 'https://parthpradhan.github.io/recipiehome/',
     repo: '', // if no repo, the button will not show up
   },
 ];
