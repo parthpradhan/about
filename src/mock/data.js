@@ -22,7 +22,7 @@ export const aboutData = {
   paragraphTwo:
     'Since my childhood I was always interested in art and playing games so I took my inspiration from them and converted those hobbies into designing and developing.',
   paragraphThree: 'I like learning new things, so feel free to give me ideas x)',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  resume: '', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
